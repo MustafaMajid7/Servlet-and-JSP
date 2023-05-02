@@ -9,6 +9,7 @@
 <body>
 
 	<%
+		response.setHeader("cache-control","no-cache, no-store, must-revalidate");
 		if(session.getAttribute("mostafa") == null)
 			response.sendRedirect("login.jsp");	
 	%>

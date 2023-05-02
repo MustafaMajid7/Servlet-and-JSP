@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="LoginSRV">
+<form action="LoginSRV" method="post">
   <label for="myName">First name:</label><br>
   <input type="text" id="username" name="username" value="mostafa"><br>
   <label for="lname">Last name:</label><br>
